@@ -18,6 +18,8 @@
 
 SysPulse is a full-stack system monitoring application that collects CPU and RAM metrics from your machine and displays them in a sleek, cyberpunk-themed dashboard with real-time updates.
 
+<div align="center">
+
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
 │                                                                      │
@@ -30,6 +32,8 @@ SysPulse is a full-stack system monitoring application that collects CPU and RAM
 │                                                                      │
 └──────────────────────────────────────────────────────────────────────┘
 ```
+
+</div>
 
 ## Features
 
