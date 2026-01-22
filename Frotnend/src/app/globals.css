@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap");
+
+:root {
+  --cyber-green: #00ff9f;
+  --cyber-amber: #ffb800;
+  --cyber-red: #ff0055;
+  --cyber-blue: #00d4ff;
+  --bg-dark: #09090b;
+  --bg-card: #18181b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  font-family: "JetBrains Mono", monospace;
+  background-color: var(--bg-dark);
+  color: #e4e4e7;
+  min-height: 100vh;
+}
+
+/* Scanline Effect */
+.scanline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 50%,
+    rgba(0, 255, 159, 0.02) 50%
+  );
+  background-size: 100% 4px;
+  pointer-events: none;
+  z-index: 100;
+}
+
+/* Neon Glow Effects */
+.glow-green {
+  text-shadow: 0 0 5px var(--cyber-green), 0 0 10px var(--cyber-green),
+    0 0 20px var(--cyber-green);
+}
+
+.glow-amber {
+  text-shadow: 0 0 5px var(--cyber-amber), 0 0 10px var(--cyber-amber),
+    0 0 20px var(--cyber-amber);
+}
+
+.glow-red {
+  text-shadow: 0 0 5px var(--cyber-red), 0 0 10px var(--cyber-red),
+    0 0 20px var(--cyber-red);
+}
+
+/* Border Glow */
+.border-glow-green {
+  box-shadow: 0 0 5px var(--cyber-green), inset 0 0 5px rgba(0, 255, 159, 0.1);
+}
+
+.border-glow-amber {
+  box-shadow: 0 0 5px var(--cyber-amber), inset 0 0 5px rgba(255, 184, 0, 0.1);
+}
+
+.border-glow-red {
+  box-shadow: 0 0 5px var(--cyber-red), inset 0 0 5px rgba(255, 0, 85, 0.1);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--cyber-green);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00cc7f;
+}
+
+/* Terminal Cursor Blink */
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.cursor-blink::after {
+  content: "_";
+  animation: blink 1s infinite;
+}
+
+/* Chart Styling */
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: #27272a;
+}
+
+.recharts-text {
+  fill: #a1a1aa;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 10px;
+}

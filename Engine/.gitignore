@@ -1,0 +1,40 @@
+# Build directories
+build/
+dist/
+*.o
+*.a
+*.so
+*.dylib
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# IDE
+.vscode/settings.json
+.vscode/*.log
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+.env.local
+
+# Binaries
+syspulse_agent
+agent/build/syspulse_agent
+
+# Logs
+*.log
+logs/

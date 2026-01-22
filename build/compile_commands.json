@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/billy/X/SysPulse/build",
+  "command": "/usr/bin/g++ -I/home/billy/X/SysPulse/Engine/agent/include -g -O0 -Wall -Wextra -Wpedantic -std=c++17 -o CMakeFiles/syspulse_agent.dir/main.cpp.o -c /home/billy/X/SysPulse/Engine/agent/main.cpp",
+  "file": "/home/billy/X/SysPulse/Engine/agent/main.cpp",
+  "output": "CMakeFiles/syspulse_agent.dir/main.cpp.o"
+}
+]
