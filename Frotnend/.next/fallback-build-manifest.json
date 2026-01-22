@@ -1,0 +1,12 @@
+{
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [
+    "static/JXAr3MKFvbhGU-VijuPEx/_ssgManifest.js",
+    "static/JXAr3MKFvbhGU-VijuPEx/_buildManifest.js"
+  ],
+  "rootMainFiles": []
+}
