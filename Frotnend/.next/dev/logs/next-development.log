@@ -1,10 +1,5 @@
-[00:00:00.673] Server  LOG     ✓ Ready in 432ms
-[00:00:19.150] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:19.255] Browser ERROR   [SysPulse] Connection error: websocket error
-[00:00:20.615] Browser ERROR   [SysPulse] Connection error: websocket error
-[00:00:22.542] Browser ERROR   [SysPulse] Connection error: websocket error
-[00:00:27.550] Browser ERROR   [SysPulse] Connection error: websocket error
-[00:00:32.553] Browser ERROR   [SysPulse] Connection error: websocket error
-[00:00:37.557] Browser ERROR   [SysPulse] Connection error: websocket error
-[00:02:50.936] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:51.198] Browser LOG     [SysPulse] Connected to telemetry server
+[00:00:00.718] Server  LOG     ✓ Ready in 471ms
+[00:00:05.417] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.567] Browser ERROR   [SysPulse] Connection error: websocket error
+[00:00:06.654] Browser ERROR   [SysPulse] Connection error: websocket error
+[00:00:08.399] Browser ERROR   [SysPulse] Connection error: websocket error

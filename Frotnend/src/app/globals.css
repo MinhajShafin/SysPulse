@@ -1,8 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@source "../components/**/*.{js,ts,jsx,tsx}";
+
+@theme {
+  --color-cyber-green: #00ff9f;
+  --color-cyber-amber: #ffb800;
+  --color-cyber-red: #ff0055;
+  --color-cyber-blue: #00d4ff;
+  --color-bg-dark: #09090b;
+  --color-bg-card: #18181b;
+
+  --font-mono: "JetBrains Mono", "Fira Code", "Monaco", "Consolas", monospace;
+
+  --animate-glow: glow 2s ease-in-out infinite alternate;
+  --animate-scanline: scanline 8s linear infinite;
+
+  @keyframes glow {
+    0% {
+      box-shadow:
+        0 0 5px currentColor,
+        0 0 10px currentColor;
+    }
+    100% {
+      box-shadow:
+        0 0 10px currentColor,
+        0 0 20px currentColor,
+        0 0 30px currentColor;
+    }
+  }
+
+  @keyframes scanline {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(100%);
+    }
+  }
+}
 
 :root {
   --cyber-green: #00ff9f;
