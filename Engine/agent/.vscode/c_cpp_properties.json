@@ -2,10 +2,7 @@
   "configurations": [
     {
       "name": "Linux",
-      "includePath": [
-        "${workspaceFolder}/**",
-        "/home/billy/X/SysPulse/include"
-      ],
+      "includePath": ["${workspaceFolder}/**", "${workspaceFolder}/include"],
       "defines": [],
       "compilerPath": "/usr/bin/gcc",
       "cStandard": "c17",

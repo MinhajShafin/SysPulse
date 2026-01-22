@@ -1,7 +1,0 @@
-/home/billy/X/SysPulse/build/CMakeFiles/syspulse_agent.dir
-/home/billy/X/SysPulse/build/CMakeFiles/edit_cache.dir
-/home/billy/X/SysPulse/build/CMakeFiles/rebuild_cache.dir
-/home/billy/X/SysPulse/build/CMakeFiles/list_install_components.dir
-/home/billy/X/SysPulse/build/CMakeFiles/install.dir
-/home/billy/X/SysPulse/build/CMakeFiles/install/local.dir
-/home/billy/X/SysPulse/build/CMakeFiles/install/strip.dir
